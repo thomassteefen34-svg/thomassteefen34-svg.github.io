@@ -12,7 +12,7 @@
       "type": "LinkedDomains",
       "serviceEndpoint": {
         "origins": [
-          "https://thomassteefen34-svg.github.io/"
+          "https://thomassteefen34-svg.github.io"
         ]
       }
     },
