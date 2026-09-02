@@ -1,1 +1,48 @@
-{"id":"did:web:thomassteefen34-svg.github.io","@context":["https://www.w3.org/ns/did/v1",{"@base":"did:web:thomassteefen34-svg.github.io"}],"service":[{"id":"#linkeddomains","type":"LinkedDomains","serviceEndpoint":{"origins":["https://thomassteefen34-svg.github.io/"]}},{"id":"#hub","type":"IdentityHub","serviceEndpoint":{"instances":["https://hub.did.msidentity.com/v1.0/46cc11f5-554c-47f7-8ae8-1c651b8f1c01"]}}],"verificationMethod":[{"id":"#d2fbf52a3543486bbc6c449438bdadf4vcSigningKey-70b33","controller":"did:web:thomassteefen34-svg.github.io","type":"JsonWebKey2020","publicKeyJwk":{"crv":"P-256","kty":"EC","x":"mPO7mkBLc2FH6sEhB7yWYuJdmzBUNA8uRNusGInx2Ec","y":"91W19sfRVn9qOm1mqCU3SRaHtWkAjZzfaxoyBQqTbtQ"}}],"authentication":["#d2fbf52a3543486bbc6c449438bdadf4vcSigningKey-70b33"],"assertionMethod":["#d2fbf52a3543486bbc6c449438bdadf4vcSigningKey-70b33"]}
+{
+  "id": "did:web:thomassteefen34-svg.github.io",
+  "@context": [
+    "https://www.w3.org/ns/did/v1",
+    {
+      "@base": "did:web:thomassteefen34-svg.github.io"
+    }
+  ],
+  "service": [
+    {
+      "id": "#linkeddomains",
+      "type": "LinkedDomains",
+      "serviceEndpoint": {
+        "origins": [
+          "https://thomassteefen34-svg.github.io/"
+        ]
+      }
+    },
+    {
+      "id": "#hub",
+      "type": "IdentityHub",
+      "serviceEndpoint": {
+        "instances": [
+          "https://hub.did.msidentity.com/v1.0/46cc11f5-554c-47f7-8ae8-1c651b8f1c01"
+        ]
+      }
+    }
+  ],
+  "verificationMethod": [
+    {
+      "id": "#d2fbf52a3543486bbc6c449438bdadf4vcSigningKey-70b33",
+      "controller": "did:web:thomassteefen34-svg.github.io",
+      "type": "JsonWebKey2020",
+      "publicKeyJwk": {
+        "crv": "P-256",
+        "kty": "EC",
+        "x": "mPO7mkBLc2FH6sEhB7yWYuJdmzBUNA8uRNusGInx2Ec",
+        "y": "91W19sfRVn9qOm1mqCU3SRaHtWkAjZzfaxoyBQqTbtQ"
+      }
+    }
+  ],
+  "authentication": [
+    "#d2fbf52a3543486bbc6c449438bdadf4vcSigningKey-70b33"
+  ],
+  "assertionMethod": [
+    "#d2fbf52a3543486bbc6c449438bdadf4vcSigningKey-70b33"
+  ]
+}
